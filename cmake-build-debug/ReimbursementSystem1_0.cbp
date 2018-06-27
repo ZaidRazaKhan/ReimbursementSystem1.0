@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ReimbursementSystem1_0"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReimbursementSystem1_0">
+				<Option output="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/ReimbursementSystem1_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReimbursementSystem1_0"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReimbursementSystem1_0/fast">
+				<Option output="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/ReimbursementSystem1_0" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReimbursementSystem1_0/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zaid/Desktop/ReimbursementSystem1.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Application.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Application.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/AuthenticationManager.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/AuthenticationManager.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Credentials.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Credentials.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/DataBaseAccessLayer.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/DataBaseAccessLayer.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/LoginManager.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/LoginManager.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Notification.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Notification.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/NotificationManager.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/NotificationManager.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Professor.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Professor.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/RegistrationManager.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/RegistrationManager.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/ReimbursementDetails.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/ReimbursementDetails.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/SignUpManually.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/SignUpManually.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/SimpleLogger.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/SimpleLogger.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Staff.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Staff.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Student.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/Student.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/TripDetails.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/TripDetails.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/User.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/User.h">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/main.cpp">
+			<Option target="ReimbursementSystem1_0"/>
+		</Unit>
+		<Unit filename="/home/zaid/Desktop/ReimbursementSystem1.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
