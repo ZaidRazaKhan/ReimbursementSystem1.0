@@ -1,0 +1,53 @@
+/* Empty. Add your own CSS if you like */
+/*.progress {
+  -webkit-appearance:progress-bar;
+    margin: 0 px;
+    height: 1 px;
+    background - color: #F1292B!important;
+    border - radius: 50%;
+    box - shadow: 0 2 px 5 px rgba(0, 0, 0, 0.25) inset;
+}
+*/
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chiller">
+ion-view{
+  background-color: blue,
+  text-align:center,
+  color:blue,
+  font-style:italic;
+}
+.spinner svg {
+  width: 6% !important;
+  height: 6% !important;
+}
+.wrapper {
+  position: relative;
+}
+
+.wrapper p {
+	/*position: absolute;*/
+    top: 36%;
+    font-size: 2.0em;
+width: 100%;
+  background-color: transparent;
+  /*bottom: 50%;*/
+  color: black;
+  /*font-family: Roboto;*/
+  /*font-size: 2.25em;*/
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+  /*left: 5;*/
+  /*padding: 0.25em 20%;*/
+  position: absolute;
+}	
+.wrapper div{
+	font-size: 1.0em;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+	color: #fff;
+	text-align: center;
+}
+/*ion-card.cards-list-demo ion-card-header {
+  color: map-get($colors, primary);
+}*/

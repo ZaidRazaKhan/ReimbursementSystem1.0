@@ -1,0 +1,26 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!--  Main Videos Page  -->
+  
+  <ion-tab title="Videos" icon-off="ion-ios-home-outline" icon-on="ion-ios-home" href="#/tab/videos?id=UCNwW8ly1GHjRi0MxpjSSWzg&type=sampleChannelListItemTypes">
+    <ion-nav-view name="tab-videos">
+      
+    </ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Albums" icon-off="ion-navicon" icon-on="ion-ios-list" href="#/tab/playlist?id=UCNwW8ly1GHjRi0MxpjSSWzg&type=samplePlaylistListType">
+    <ion-nav-view name="tab-playlist"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="About Us" icon-off="ion-navicon" icon-on="ion-ios-list" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

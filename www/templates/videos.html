@@ -1,0 +1,51 @@
+<ion-view view-title="Jamat Raza e Mustafa, Ranebennur"  class="bar-positive" ng-class="{'bar-custom' : headerChangeColor}">
+          <!-- <ion-spinner icon="circles" class="spinner-energized"></ion-spinner> -->
+
+  <ion-content>
+    <div class="list card" ng-repeat="video in page.videos ">
+      <div class="item item-text-wrap" ng-click="updateCurrentlyPlaying(video)">
+
+        <h2 side="text-right" style="font-style: italic;">{{video.title}}</h2>
+        
+        <p><i class="ion ion-ios-calender-outline"></i>{{video.publishedAt | limitTo: 10}}</p>
+
+      
+        <div class="item item-image">
+          <div class="embed-responsive embed-responsive-16by9" >
+            <ion-item>
+            <a href="#/tab/player?videoId={{video.id}}">
+            <img src="https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjg-82YndfYAhXDq5QKHU6aADQQjRwIBw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcTakBHaDcuc&psig=AOvVaw2Ka6UlMmHdLCQ11UzGqdF7&ust=1516011506656292">
+          </a>
+        </ion-item>
+            <!-- <youtube-video player-width="'100%'" player-height="'80%'" class="embed-responsive-item" video-id="currentVideoPlaying.id==video.id?video.id:null" player-vars="playerVars"></youtube-video> -->
+          </div>
+          <h3 style="text-align: left;overflow: visible;white-space: normal;">{{video.description}}</h3>
+
+        <div ng-if="!isNull(video.downloadUrls)">
+          <div ng-if="video.downloadProgress !=100 &&isNull(video.urlInDescription)">
+            <div class="button-bar" ng-click="download(video)">
+
+
+              <i class="icon ion-archive button"></i>
+            </div>
+          </div>
+          <div ng-if="video.downloadProgress !=0 && !isNull(video.downloadProgress)">
+            <progress id="progressbar" max="100" value="{{isNull(video.downloadProgress)?0:video.downloadProgress}}" style="width: 100%"></progress>
+            <div id="progressbarlabel" style="text-align: center;font-size: 30px">
+            </div>
+          </div>
+
+        </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+     <button class="button button-block button-positive" style="font-style: italic;" ng-click="fetchVideos(page)">
+      Load More <ion-spinner icon="circles" class="spinner-stable" ng-if="isFetchDisabled"></ion-spinner>
+    </button>
+    
+  </ion-content>
+</ion-view>

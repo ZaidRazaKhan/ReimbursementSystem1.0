@@ -1,0 +1,36 @@
+<ion-view view-title="Jamat Raza e Mustafa, Ranebennur">
+        <ion-spinner icon="circles" class="spinner-energized"></ion-spinner>
+  <ion-content>
+    
+
+        
+    <div class="list card" ng-repeat="playlistItem in page.playlists">
+        <a class="item item-icon-left item-icon-right" style="" href="#/tab/videos?id={{playlistItem.id}}&type=samplePlaylistItemListType">
+          <i class="icon ion-filing"></i>
+          {{playlistItem.title}}
+          <div>
+           <div style="font-size: 13px;font: Chiller">{{playlistItem.publishedAt | limitTo: 10}}</div>
+          <p style="overflow: visible;white-space: normal;font-style: italic;" class="">{{playlistItem.description}}<p> 
+           </div>
+         <i class="icon ion-chevron-right"></i>
+        </a>
+         
+    </div>
+    
+    <div>
+      <a class="item item-icon-left item-icon-right" href="#/tab/videos?id={{channelId}}&type=sampleChannelListItemTypes" style="overflow: visible;white-space: normal;">
+        <i class="icon ion-filing"></i>
+        Uploads
+        <div>
+         <div style="font-size: 13px;font: Chiller"></div>
+        <p style="overflow: visible;white-space: normal;font-style: italic;" class="">Latest uploads yahan par hain, ap yahan 500 tak hi upload entries dekh sakte hain, isse zyada entries dekhne ya audio download karne ke lie mutalliq playlist pe jaiye.<p> 
+         </div>
+       <i class="icon ion-chevron-right"></i>
+      </a>
+    </div>
+
+    <button class="button button-block button-balanced " ng-click="fetchVideos(page)">
+      Load More <ion-spinner icon="circles" class="spinner-stable" ng-if="isFetchDisabled"></ion-spinner>
+    </button>
+  </ion-content>
+</ion-view>
